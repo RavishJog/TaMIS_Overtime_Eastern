@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="cucumbertest.TestRunner_web" time="32.984" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2023.1.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.371-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\suraj.joggessur\Desktop\Projects\TAMIS\Automation\Eastern"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\suraj.joggessur\Desktop\Projects\TAMIS\Automation\Eastern"/>
+    <property name="java.runtime.version" value="1.8.0_371-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SURAJ~1.JOG\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jre-1.8\bin;C:\Users\suraj.joggessur\Desktop\JMeter\apache-jmeter-5.6.2\bin;C:\Program Files\Jenkins;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\suraj.joggessur\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin;;C:\Users\suraj.joggessur\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\suraj.joggessur"/>
+    <property name="tags" value="&quot;--tags @Overtime_Amount_Scenarios&quot;"/>
+    <property name="user.timezone" value="Indian/Mauritius"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="suraj.joggessur"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-1.8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.1.2 clean test -D tags=&quot;--tags @Overtime_Amount_Scenarios&quot;"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_371"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="cucumbertest.TestRunner_web" name="runCukes" time="32.984">
+    <failure message="java.lang.AssertionError: 15.75 expected [16.00] but found [Hours Work 1 is NOT good]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: 15.75 expected [16.00] but found [Hours Work 1 is NOT good]
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:57)
+	at cucumbertest.TestRunner_web.runCukes(TestRunner_web.java:26)
+Caused by: java.lang.AssertionError: 15.75 expected [16.00] but found [Hours Work 1 is NOT good]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:623)
+	at ✽.And I Verify Hours Work in Manage OT &quot;16.00&quot; &quot;1.00&quot;(features/Login.feature:95)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2cfb4a64
+#Overtime
+@Main_feature @Overtime
+Feature: Overtime_Calculations
+
+  #Scenario2 - Overtime_Scenarios
+  @Overtime_Amount_Scenarios
+  Scenario Outline: Scenarios Mauritian and Expatriates working Overtime                                                                                                                                                                                                                                                                                         &amp;#27;[90m# features/Login.feature:72&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mI am on Eastern Test Env - Front &quot;&lt;Browser&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Login Page&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Sign In as HR &quot;&lt;User_Name&gt;&quot; &quot;&lt;Password&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Successful Login&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Human Resource&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Attendance&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Retrieve Attendance&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Input Attendance Date &quot;&lt;Date1&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Employee Code &quot;&lt;Emp_Code&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Query Button&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Hours Worked for Day one &quot;&lt;Hrs_wrk_one&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Process Button&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Success Message for Process Attendance&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Attendance&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Manage Overtime Hours&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Manage Overtime Hours Page&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Company Name&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Location &quot;&lt;Location&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Employee Code &quot;&lt;Emp_Code&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Input Date From and Date To &quot;&lt;Date1&gt;&quot; &quot;&lt;Date2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Query Overtime Hours&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Hours Work in Manage OT &quot;&lt;Hrs_wrk_one&gt;&quot; &quot;&lt;Hrs_wrk_two&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate One Point Five &quot;&lt;OT15Day1&gt;&quot; &quot;&lt;OT15Day2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Two Point Zero &quot;&lt;OT20Day1&gt;&quot; &quot;&lt;OT20Day2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Three Point Zero &quot;&lt;OT30Day1&gt;&quot; &quot;&lt;OT30Day2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Sunday &quot;&lt;OTSUNDay1&gt;&quot; &quot;&lt;OTSUNDay2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Public Holiday &quot;&lt;OTPHDay1&gt;&quot; &quot;&lt;OTPHDay2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Save Button&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Success Message for OT Saved&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Attendance&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Manage Overtime Hours and Meals&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Manage Overtime Hours and Meals Page&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Input Date From and Date To &quot;&lt;Date1&gt;&quot; &quot;&lt;Date2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Company Name&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Location &quot;&lt;Location&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Employee Code &quot;&lt;Emp_Code&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Query Button&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours and Amount &quot;&lt;OT15Day1&gt;&quot; &quot;&lt;OT15Day2&gt;&quot; &quot;&lt;OT20Day1&gt;&quot; &quot;&lt;OT20Day2&gt;&quot; &quot;&lt;OT30Day1&gt;&quot; &quot;&lt;OT30Day2&gt;&quot; &quot;&lt;OTSUNDay1&gt;&quot; &quot;&lt;OTSUNDay2&gt;&quot; &quot;&lt;OTPHDay1&gt;&quot; &quot;&lt;OTPHDay2&gt;&quot; &quot;&lt;OT15Amt1&gt;&quot; &quot;&lt;OT15Amt2&gt;&quot; &quot;&lt;OT20Amt1&gt;&quot; &quot;&lt;OT20Amt2&gt;&quot; &quot;&lt;OT30Amt1&gt;&quot; &quot;&lt;OT30Amt2&gt;&quot; &quot;&lt;OTSUNPHAmt1&gt;&quot; &quot;&lt;OTSUNPHAmt2&gt;&quot; &quot;&lt;Total_Amt1&gt;&quot; &quot;&lt;Total_Amt2&gt;&quot; &quot;&lt;Off_Leave_amt1&gt;&quot; &quot;&lt;Off_Leave_amt2&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Sign Out&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Successful Sign Out&amp;#27;[0m
+
+    Examples: 
+Unable to take screenshot
+java.lang.NullPointerException
+Text from source element: 16.00
+Hours Work is good
+Unable to take screenshot
+java.lang.NullPointerException
+Unable to take screenshot
+java.lang.NullPointerException
+Unable to take screenshot
+java.lang.NullPointerException
+Unable to take screenshot
+java.lang.NullPointerException
+
+  @Overtime_Amount_Scenarios @Main_feature @Overtime
+  Scenario Outline: Scenarios Mauritian and Expatriates working Overtime                                                                         &amp;#27;[90m# features/Login.feature:117&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on Eastern Test Env - Front &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mChrome&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                              &amp;#27;[90m# Steps.iAmOnEasternTestEnvFront(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Verify Login Page&amp;#27;[0m                                                                                                                      &amp;#27;[90m# Steps.iVerifyLoginPage()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Sign In as HR &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mAAA&amp;#27;[0m&amp;#27;[32m&quot; &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mAdmin@123&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                                        &amp;#27;[90m# Steps.iSignInAsHR(String,String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Verify Successful Login&amp;#27;[0m                                                                                                                &amp;#27;[90m# Steps.iVerifySuccessfulLogin()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Human Resource&amp;#27;[0m                                                                                                                &amp;#27;[90m# Steps.iClickOnHumanResource()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Attendance&amp;#27;[0m                                                                                                                    &amp;#27;[90m# Steps.iClickOnAttendance()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Retrieve Attendance&amp;#27;[0m                                                                                                           &amp;#27;[90m# Steps.iClickOnRetrieveAttendance()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Input Attendance Date &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m07-Jan-2025&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                                    &amp;#27;[90m# Steps.iInputAttendanceDate(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Select Employee Code &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m75&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                                              &amp;#27;[90m# Steps.iSelectEmployeeCode(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Query Button&amp;#27;[0m                                                                                                                  &amp;#27;[90m# Steps.iClickOnQueryButton()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Verify Hours Worked for Day one &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m16.00&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                                &amp;#27;[90m# Steps.iVerifyHoursWorkedForDayOne(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Process Button&amp;#27;[0m                                                                                                                &amp;#27;[90m# Steps.iClickOnProcessButton()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Verify Success Message for Process Attendance&amp;#27;[0m                                                                                          &amp;#27;[90m# Steps.iVerifySuccessMessageForProcessAttendance()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Attendance&amp;#27;[0m                                                                                                                    &amp;#27;[90m# Steps.iClickOnAttendance()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Manage Overtime Hours&amp;#27;[0m                                                                                                         &amp;#27;[90m# Steps.iClickOnManageOvertimeHours()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Verify Manage Overtime Hours Page&amp;#27;[0m                                                                                                      &amp;#27;[90m# Steps.iVerifyManageOvertimeHoursPage()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Select Company Name&amp;#27;[0m                                                                                                                    &amp;#27;[90m# Steps.iSelectCompanyName()&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Select Location &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mAdm&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                                                  &amp;#27;[90m# Steps.iSelectLocation(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Select Employee Code &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m75&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                                              &amp;#27;[90m# Steps.iSelectEmployeeCode(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Input Date From and Date To &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m07-Jan-2025&amp;#27;[0m&amp;#27;[32m&quot; &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m08-Jan-2025&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                &amp;#27;[90m# Steps.iInputDateFromAndDateTo(String,String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI Click on Query Overtime Hours&amp;#27;[0m                                                                                                          &amp;#27;[90m# Steps.iClickOnQueryOvertimeHours()&amp;#27;[0m
+    &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mI Verify Hours Work in Manage OT &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1m16.00&amp;#27;[0m&amp;#27;[31m&quot; &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1.00&amp;#27;[0m&amp;#27;[31m&quot;&amp;#27;[0m                                                                                          &amp;#27;[90m# Steps.iVerifyHoursWorkInManageOT(String,String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: 15.75 expected [16.00] but found [Hours Work 1 is NOT good]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:623)
+      	at ?.And I Verify Hours Work in Manage OT &quot;16.00&quot; &quot;1.00&quot;(features/Login.feature:95)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate One Point Five &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6.75&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1.00&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                &amp;#27;[90m# Steps.iVerifyOvertimeHoursRateOnePointFive(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Two Point Zero &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                        &amp;#27;[90m# Steps.iVerifyOvertimeHoursRateTwoPointZero(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Three Point Zero &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                      &amp;#27;[90m# Steps.iVerifyOvertimeHoursRateThreePointZero(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Sunday &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                                &amp;#27;[90m# Steps.iVerifyOvertimeHoursRateSunday(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours Rate Public Holiday &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                        &amp;#27;[90m# Steps.iVerifyOvertimeHoursRatePublicHoliday(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Save Button&amp;#27;[0m                                                                                                                   &amp;#27;[90m# Steps.iClickOnSaveButton()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Success Message for OT Saved&amp;#27;[0m                                                                                                    &amp;#27;[90m# Steps.iVerifySuccessMessageForOTSaved()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Attendance&amp;#27;[0m                                                                                                                    &amp;#27;[90m# Steps.iClickOnAttendance()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Manage Overtime Hours and Meals&amp;#27;[0m                                                                                               &amp;#27;[90m# Steps.iClickOnManageOvertimeHoursAndMeals()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Manage Overtime Hours and Meals Page&amp;#27;[0m                                                                                            &amp;#27;[90m# Steps.iVerifyManageOvertimeHoursAndMealsPage()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Input Date From and Date To &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m07-Jan-2025&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m08-Jan-2025&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                &amp;#27;[90m# Steps.iInputDateFromAndDateTo(String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Company Name&amp;#27;[0m                                                                                                                    &amp;#27;[90m# Steps.iSelectCompanyName()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Location &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAdm&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                                                  &amp;#27;[90m# Steps.iSelectLocation(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Select Employee Code &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m75&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                                                                              &amp;#27;[90m# Steps.iSelectEmployeeCode(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Click on Query Button&amp;#27;[0m                                                                                                                  &amp;#27;[90m# Steps.iClickOnQueryButton()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Overtime Hours and Amount &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6.75&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1.00&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1,465.53&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m217.12&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1,465.53&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m217.12&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot; &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Steps.iVerifyOvertimeHoursAndAmount(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Sign Out&amp;#27;[0m                                                                                                                               &amp;#27;[90m# Steps.iSignOut()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI Verify Successful Sign Out&amp;#27;[0m                                                                                                             &amp;#27;[90m# Steps.iVerifySuccessfulSignOut()&amp;#27;[0m
+
+&amp;#27;[31mFailed scenarios:&amp;#27;[0m
+&amp;#27;[31mfeatures/Login.feature:117 &amp;#27;[0m# Scenario Outline: Scenarios Mauritian and Expatriates working Overtime
+
+1 Scenarios (&amp;#27;[31m1 failed&amp;#27;[0m)
+40 Steps (&amp;#27;[31m1 failed&amp;#27;[0m, &amp;#27;[36m18 skipped&amp;#27;[0m, &amp;#27;[32m21 passed&amp;#27;[0m)
+0m32.256s
+
+java.lang.AssertionError: 15.75 expected [16.00] but found [Hours Work 1 is NOT good]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:623)
+	at ?.And I Verify Hours Work in Manage OT &quot;16.00&quot; &quot;1.00&quot;(features/Login.feature:95)
+
+</system-out>
+    <system-err>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 138.0.7204.94 (5450257488848fa5bab09dea663ce77edfb17672-refs/branch-heads/7204_50@{#10}) on port 7849
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 7849.
+Jul 15, 2025 1:40:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+</system-err>
+  </testcase>
+</testsuite>
