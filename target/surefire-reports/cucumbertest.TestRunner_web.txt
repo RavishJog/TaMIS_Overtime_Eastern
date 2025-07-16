@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: cucumbertest.TestRunner_web
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.423 sec <<< FAILURE!
-runCukes(cucumbertest.TestRunner_web)  Time elapsed: 32.984 sec  <<< FAILURE!
-cucumber.runtime.CucumberException: java.lang.AssertionError: 15.75 expected [16.00] but found [Hours Work 1 is NOT good]
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 936.746 sec <<< FAILURE!
+runCukes(cucumbertest.TestRunner_web)  Time elapsed: 936.349 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: 7.25 expected [7.00] but found [Hours Work 2 is NOT good]
 	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:57)
 	at cucumbertest.TestRunner_web.runCukes(TestRunner_web.java:26)
-Caused by: java.lang.AssertionError: 15.75 expected [16.00] but found [Hours Work 1 is NOT good]
+Caused by: java.lang.AssertionError: 7.25 expected [7.00] but found [Hours Work 2 is NOT good]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
-	at stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:623)
-	at ✽.And I Verify Hours Work in Manage OT "16.00" "1.00"(features/Login.feature:95)
+	at stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:634)
+	at ✽.And I Verify Hours Work in Manage OT "16.75" "7.00"(features/Login.feature:95)
 

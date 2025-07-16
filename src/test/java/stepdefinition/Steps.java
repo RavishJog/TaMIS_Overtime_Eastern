@@ -419,6 +419,7 @@ public class Steps extends Utility {
         WebElement element = w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")));
         try {
             driver.findElement(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")).click();
+            Thread.sleep(1000);
             driver.findElement(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")).click();
 
         } catch (Exception e) {
