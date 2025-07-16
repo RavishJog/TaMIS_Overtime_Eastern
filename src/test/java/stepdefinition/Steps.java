@@ -409,6 +409,8 @@ public class Steps extends Utility {
 
     @And("^I Click on Human Resource$")
     public void iClickOnHumanResource() {
+        WebDriverWait w = new WebDriverWait(driver, 30);
+        WebElement element = w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")));
         driver.findElement(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")).click();
 
     }
