@@ -411,9 +411,22 @@ public class Steps extends Utility {
     @And("^I Click on Human Resource$")
     public void iClickOnHumanResource() {
         WebDriverWait w = new WebDriverWait(driver, 60);
-        WebElement element = w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")));
-        driver.findElement(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")).click();
+//        WebElement element = w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")));
+//        driver.findElement(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")).click();
 
+        // Wait until the element is clickable, not just present
+        WebElement element = w.until(ExpectedConditions.elementToBeClickable(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")
+        ));
+
+        // Scroll into view to avoid overlap issues
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+
+        // Short wait to ensure scroll settles (optional)
+        try { Thread.sleep(300); } catch (InterruptedException e) {}
+
+        // Perform the click using Actions (safer than direct click)
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
     }
 
     @And("^I Click on Attendance$")

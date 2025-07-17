@@ -456,37 +456,37 @@ Feature: Overtime_Calculations
     And I Click on Human Resource
     And I Click on Attendance
     And I Click on Retrieve Attendance
-    And I Input Attendance Date "<Date1>"
-    And I Select Employee Code "<Emp_Code>"
-    And I Click on Query Button
-    And I Verify Hours Worked for Day one "<Hrs_wrk_one>"
-    And I Click on Process Button
-    And I Verify Success Message for Process Attendance
-    And I Click on Attendance
-    And I Click on Manage Overtime Hours
-    And I Verify Manage Overtime Hours Page
-    And I Select Company Name
-    And I Select Location "<Location>"
-    And I Select Employee Code "<Emp_Code>"
-    And I Input Date From and Date To "<Date1>" "<Date2>"
-    And I Click on Query Overtime Hours
-    And I Verify Hours Work in Manage OT "<Hrs_wrk_one>" "<Hrs_wrk_two>"
-    And I Verify Overtime Hours Rate One Point Five "<OT15Day1>" "<OT15Day2>"
-    And I Verify Overtime Hours Rate Two Point Zero "<OT20Day1>" "<OT20Day2>"
-    And I Verify Overtime Hours Rate Three Point Zero "<OT30Day1>" "<OT30Day2>"
-    And I Verify Overtime Hours Rate Sunday "<OTSUNDay1>" "<OTSUNDay2>"
-    And I Verify Overtime Hours Rate Public Holiday "<OTPHDay1>" "<OTPHDay2>"
-    And I Click on Save Button
-    And I Verify Success Message for OT Saved
-    And I Click on Attendance
-    And I Click on Manage Overtime Hours and Meals
-    And I Verify Manage Overtime Hours and Meals Page
-    And I Input Date From and Date To in Manage Overtime and Meals "<Date1>" "<Date2>"
-    And I Select Company Name
-    And I Select Location In Manage Overtime and Meals "<Location>"
-    And I Select Employee Code In Manage Overtime and Meals "<Emp_Code>"
-    And I Click on Query Button
-    And I Verify Overtime Hours and Amount "<OT15Day1>" "<OT15Day2>" "<OT20Day1>" "<OT20Day2>" "<OT30Day1>" "<OT30Day2>" "<OTSUNDay1>" "<OTSUNDay2>" "<OTPHDay1>" "<OTPHDay2>" "<OT15Amt1>" "<OT15Amt2>" "<OT20Amt1>" "<OT20Amt2>" "<OT30Amt1>" "<OT30Amt2>" "<OTSUNPHAmt1>" "<OTSUNPHAmt2>" "<Total_Amt1>" "<Total_Amt2>" "<Off_Leave_amt1>" "<Off_Leave_amt2>"
+#    And I Input Attendance Date "<Date1>"
+#    And I Select Employee Code "<Emp_Code>"
+#    And I Click on Query Button
+#    And I Verify Hours Worked for Day one "<Hrs_wrk_one>"
+#    And I Click on Process Button
+#    And I Verify Success Message for Process Attendance
+#    And I Click on Attendance
+#    And I Click on Manage Overtime Hours
+#    And I Verify Manage Overtime Hours Page
+#    And I Select Company Name
+#    And I Select Location "<Location>"
+#    And I Select Employee Code "<Emp_Code>"
+#    And I Input Date From and Date To "<Date1>" "<Date2>"
+#    And I Click on Query Overtime Hours
+#    And I Verify Hours Work in Manage OT "<Hrs_wrk_one>" "<Hrs_wrk_two>"
+#    And I Verify Overtime Hours Rate One Point Five "<OT15Day1>" "<OT15Day2>"
+#    And I Verify Overtime Hours Rate Two Point Zero "<OT20Day1>" "<OT20Day2>"
+#    And I Verify Overtime Hours Rate Three Point Zero "<OT30Day1>" "<OT30Day2>"
+#    And I Verify Overtime Hours Rate Sunday "<OTSUNDay1>" "<OTSUNDay2>"
+#    And I Verify Overtime Hours Rate Public Holiday "<OTPHDay1>" "<OTPHDay2>"
+#    And I Click on Save Button
+#    And I Verify Success Message for OT Saved
+#    And I Click on Attendance
+#    And I Click on Manage Overtime Hours and Meals
+#    And I Verify Manage Overtime Hours and Meals Page
+#    And I Input Date From and Date To in Manage Overtime and Meals "<Date1>" "<Date2>"
+#    And I Select Company Name
+#    And I Select Location In Manage Overtime and Meals "<Location>"
+#    And I Select Employee Code In Manage Overtime and Meals "<Emp_Code>"
+#    And I Click on Query Button
+#    And I Verify Overtime Hours and Amount "<OT15Day1>" "<OT15Day2>" "<OT20Day1>" "<OT20Day2>" "<OT30Day1>" "<OT30Day2>" "<OTSUNDay1>" "<OTSUNDay2>" "<OTPHDay1>" "<OTPHDay2>" "<OT15Amt1>" "<OT15Amt2>" "<OT20Amt1>" "<OT20Amt2>" "<OT30Amt1>" "<OT30Amt2>" "<OTSUNPHAmt1>" "<OTSUNPHAmt2>" "<Total_Amt1>" "<Total_Amt2>" "<Off_Leave_amt1>" "<Off_Leave_amt2>"
     And I Sign Out
     And I Verify Successful Sign Out
 

@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
                 "pretty",
                 "json:target/cucumber-reports/cucumber.json" // Specify the JSON report path
         }
-        ,tags = "@Overtime_Parameter_9_Mauritian"
+        ,tags = "@Jenkins_Test"
 
 )
 
