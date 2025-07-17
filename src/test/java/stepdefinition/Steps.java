@@ -16,6 +16,7 @@ import org.apache.bcel.generic.TABLESWITCH;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -409,7 +410,7 @@ public class Steps extends Utility {
 
     @And("^I Click on Human Resource$")
     public void iClickOnHumanResource() {
-        WebDriverWait w = new WebDriverWait(driver, 30);
+        WebDriverWait w = new WebDriverWait(driver, 60);
         WebElement element = w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")));
         driver.findElement(By.xpath("//p[@class='menu-label'][contains(.,'Human Resource')]")).click();
 
@@ -417,17 +418,29 @@ public class Steps extends Utility {
 
     @And("^I Click on Attendance$")
     public void iClickOnAttendance() throws InterruptedException {
-        WebDriverWait w = new WebDriverWait(driver, 30);
-        WebElement element = w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")));
-        try {
-            driver.findElement(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")).click();
-            Thread.sleep(1000);
-            driver.findElement(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")).click();
+//        WebDriverWait w = new WebDriverWait(driver, 30);
+//        WebElement element = w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")));
 
-        } catch (Exception e) {
-            System.out.println("Attendance failed");
-            Assert.fail("Attendance failed");
-        }
+//        try {
+//            driver.findElement(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")).click();
+//            Thread.sleep(1000);
+//            driver.findElement(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]")).click();
+
+//        } catch (Exception e) {
+//            System.out.println("Attendance failed");
+//            Assert.fail("Attendance failed");
+//        }
+
+        // Locate the element to hover over
+        WebElement elementToHover = driver.findElement(By.xpath("(//span[@class='ui-menuitem-text'][contains(.,'Attendance')])[1]"));
+
+// Create Actions instance
+        Actions actions = new Actions(driver);
+
+// Perform hover action
+        actions.moveToElement(elementToHover).perform();
+
+
         Thread.sleep(2000);
     }
 

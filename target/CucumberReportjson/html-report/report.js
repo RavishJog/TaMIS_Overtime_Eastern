@@ -328,11 +328,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 62100,
+  "duration": 102500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 16800,
+  "duration": 24800,
   "status": "passed"
 });
 formatter.scenario({
@@ -651,14 +651,14 @@ formatter.match({
   "location": "Steps.iAmOnEasternTestEnvFront(String)"
 });
 formatter.result({
-  "duration": 2515570900,
+  "duration": 2719062000,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iVerifyLoginPage()"
 });
 formatter.result({
-  "duration": 64596000,
+  "duration": 69145900,
   "status": "passed"
 });
 formatter.match({
@@ -675,35 +675,35 @@ formatter.match({
   "location": "Steps.iSignInAsHR(String,String)"
 });
 formatter.result({
-  "duration": 277381900,
+  "duration": 352029200,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iVerifySuccessfulLogin()"
 });
 formatter.result({
-  "duration": 1248823200,
+  "duration": 639599500,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iClickOnHumanResource()"
 });
 formatter.result({
-  "duration": 1388562000,
+  "duration": 90116000,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iClickOnAttendance()"
 });
 formatter.result({
-  "duration": 3189774899,
+  "duration": 3237194000,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iClickOnRetrieveAttendance()"
 });
 formatter.result({
-  "duration": 91346900,
+  "duration": 134941700,
   "status": "passed"
 });
 formatter.match({
@@ -716,7 +716,7 @@ formatter.match({
   "location": "Steps.iInputAttendanceDate(String)"
 });
 formatter.result({
-  "duration": 683902401,
+  "duration": 680701400,
   "status": "passed"
 });
 formatter.match({
@@ -729,14 +729,14 @@ formatter.match({
   "location": "Steps.iSelectEmployeeCode(String)"
 });
 formatter.result({
-  "duration": 189543300,
+  "duration": 181969500,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iClickOnQueryButton()"
 });
 formatter.result({
-  "duration": 5170860200,
+  "duration": 5163435700,
   "status": "passed"
 });
 formatter.match({
@@ -749,50 +749,47 @@ formatter.match({
   "location": "Steps.iVerifyHoursWorkedForDayOne(String)"
 });
 formatter.result({
-  "duration": 70056300,
+  "duration": 72750800,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iClickOnProcessButton()"
 });
 formatter.result({
-  "duration": 54466501,
+  "duration": 72964200,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.iVerifySuccessMessageForProcessAttendance()"
 });
 formatter.result({
-  "duration": 576775800,
-  "status": "passed"
+  "duration": 120168591900,
+  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[contains(.,\u0027Records processed successfully\u0027)] (tried for 120 second(s) with 500 MILLISECONDS interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)\r\n\tat stepdefinition.Steps.iVerifySuccessMessageForProcessAttendance(Steps.java:517)\r\n\tat ✽.And I Verify Success Message for Process Attendance(features/Login.feature:464)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //span[contains(.,\u0027Records processed successfully\u0027)]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027SIL-LTDELLI7-G6\u0027, ip: \u0027130.1.21.163\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_371\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)\r\n\tat java.util.Optional.orElseThrow(Optional.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)\r\n\tat stepdefinition.Steps.iVerifySuccessMessageForProcessAttendance(Steps.java:517)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)\r\n\tat cucumbertest.TestRunner_web.runCukes(TestRunner_web.java:26)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Steps.iClickOnAttendance()"
 });
 formatter.result({
-  "duration": 3179394399,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.iClickOnManageOvertimeHours()"
 });
 formatter.result({
-  "duration": 2836160000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.iVerifyManageOvertimeHoursPage()"
 });
 formatter.result({
-  "duration": 33176900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.iSelectCompanyName()"
 });
 formatter.result({
-  "duration": 129939600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -804,8 +801,7 @@ formatter.match({
   "location": "Steps.iSelectLocation(String)"
 });
 formatter.result({
-  "duration": 2161908601,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -817,8 +813,7 @@ formatter.match({
   "location": "Steps.iSelectEmployeeCode(String)"
 });
 formatter.result({
-  "duration": 142559400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -834,15 +829,13 @@ formatter.match({
   "location": "Steps.iInputDateFromAndDateTo(String,String)"
 });
 formatter.result({
-  "duration": 5180360700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.iClickOnQueryOvertimeHours()"
 });
 formatter.result({
-  "duration": 3111993400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -858,9 +851,7 @@ formatter.match({
   "location": "Steps.iVerifyHoursWorkInManageOT(String,String)"
 });
 formatter.result({
-  "duration": 75260999,
-  "error_message": "java.lang.AssertionError: 8.83 expected [9.08] but found [Hours Work 1 is NOT good]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:626)\r\n\tat ✽.And I Verify Hours Work in Manage OT \"9.08\" \"null\"(features/Login.feature:473)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1133,11 +1124,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 1182661801,
+  "duration": 1158325300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 384501,
+  "duration": 121900,
   "status": "passed"
 });
 });
