@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="cucumbertest.TestRunner_web" duration-ms="936355" started-at="2025-07-16T07:08:54Z" finished-at="2025-07-16T07:24:31Z">
+  <suite name="cucumbertest.TestRunner_web" duration-ms="34209" started-at="2025-07-16T12:29:49Z" finished-at="2025-07-16T12:30:24Z">
     <groups>
       <group name="Web">
         <method signature="TestRunner_web.runCukes()[pri:0, instance:cucumbertest.TestRunner_web@42dafa95]" name="runCukes" class="cucumbertest.TestRunner_web"/>
       </group> <!-- Web -->
     </groups>
-    <test name="Command line test" duration-ms="936355" started-at="2025-07-16T07:08:54Z" finished-at="2025-07-16T07:24:31Z">
+    <test name="Command line test" duration-ms="34209" started-at="2025-07-16T12:29:49Z" finished-at="2025-07-16T12:30:24Z">
       <class name="cucumbertest.TestRunner_web">
-        <test-method status="FAIL" signature="runCukes()[pri:0, instance:cucumbertest.TestRunner_web@42dafa95]" name="runCukes" duration-ms="936344" started-at="2025-07-16T11:08:54Z" description="Example of using TestNGCucumberRunner to invoke Cucumber" finished-at="2025-07-16T11:24:31Z">
+        <test-method status="FAIL" signature="runCukes()[pri:0, instance:cucumbertest.TestRunner_web@42dafa95]" name="runCukes" duration-ms="34202" started-at="2025-07-16T16:29:49Z" description="Example of using TestNGCucumberRunner to invoke Cucumber" finished-at="2025-07-16T16:30:24Z">
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[java.lang.AssertionError: 7.25 expected [7.00] but found [Hours Work 2 is NOT good]]]>
+              <![CDATA[java.lang.AssertionError: 8.83 expected [9.08] but found [Hours Work 1 is NOT good]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: 7.25 expected [7.00] but found [Hours Work 2 is NOT good]
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: 8.83 expected [9.08] but found [Hours Work 1 is NOT good]
 	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:57)
 	at cucumbertest.TestRunner_web.runCukes(TestRunner_web.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -52,14 +52,14 @@
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.lang.AssertionError: 7.25 expected [7.00] but found [Hours Work 2 is NOT good]
+Caused by: java.lang.AssertionError: 8.83 expected [9.08] but found [Hours Work 1 is NOT good]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
-	at stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:634)
-	at ✽.And I Verify Hours Work in Manage OT "16.75" "7.00"(features/Login.feature:95)
+	at stepdefinition.Steps.iVerifyHoursWorkInManageOT(Steps.java:626)
+	at ✽.And I Verify Hours Work in Manage OT "9.08" "null"(features/Login.feature:473)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->

@@ -17,7 +17,6 @@ import org.testng.annotations.Test;
                 "json:target/cucumber-reports/cucumber.json" // Specify the JSON report path
         }
         ,tags = "@Main_feature"
-
 )
 
 public class TestRunner_web {
