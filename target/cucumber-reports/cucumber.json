@@ -1,0 +1,349 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Overtime"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 123200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 39600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUpDriver()"
+            }
+          }
+        ],
+        "line": 1917,
+        "name": "Jenkins Test",
+        "description": "",
+        "id": "overtime-calculations;jenkins-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1367919400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 172100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2638630200,
+              "status": "passed"
+            },
+            "line": 1874,
+            "name": "I am on Eastern Test Env - Front \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.iAmOnEasternTestEnvFront(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59483100,
+              "status": "passed"
+            },
+            "line": 1875,
+            "name": "I Verify Login Page",
+            "match": {
+              "location": "Steps.iVerifyLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 923148500,
+              "status": "passed"
+            },
+            "line": 1876,
+            "name": "I Sign In as HR \"AAA\" \"Admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAA",
+                  "offset": 17
+                },
+                {
+                  "val": "Admin@123",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.iSignInAsHR(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087202500,
+              "status": "passed"
+            },
+            "line": 1877,
+            "name": "I Verify Successful Login",
+            "match": {
+              "location": "Steps.iVerifySuccessfulLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3577181900,
+              "status": "passed"
+            },
+            "line": 1878,
+            "name": "I Click on Human Resource",
+            "match": {
+              "location": "Steps.iClickOnHumanResource()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2186232400,
+              "status": "passed"
+            },
+            "line": 1879,
+            "name": "I Click on Attendance",
+            "match": {
+              "location": "Steps.iClickOnAttendance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136993300,
+              "status": "passed"
+            },
+            "line": 1880,
+            "name": "I Click on Retrieve Attendance",
+            "match": {
+              "location": "Steps.iClickOnRetrieveAttendance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 704517200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 1881,
+                "value": "#    And I Input Attendance Date \"\u003cDate1\u003e\""
+              },
+              {
+                "line": 1882,
+                "value": "#    And I Select Employee Code \"\u003cEmp_Code\u003e\""
+              },
+              {
+                "line": 1883,
+                "value": "#    And I Click on Query Button"
+              },
+              {
+                "line": 1884,
+                "value": "#    And I Verify Hours Worked for Day one \"\u003cHrs_wrk_one\u003e\""
+              },
+              {
+                "line": 1885,
+                "value": "#    And I Click on Process Button"
+              },
+              {
+                "line": 1886,
+                "value": "#    And I Verify Success Message for Process Attendance"
+              },
+              {
+                "line": 1887,
+                "value": "#    And I Click on Attendance"
+              },
+              {
+                "line": 1888,
+                "value": "#    And I Click on Manage Overtime Hours"
+              },
+              {
+                "line": 1889,
+                "value": "#    And I Verify Manage Overtime Hours Page"
+              },
+              {
+                "line": 1890,
+                "value": "#    And I Select Company Name"
+              },
+              {
+                "line": 1891,
+                "value": "#    And I Select Location \"\u003cLocation\u003e\""
+              },
+              {
+                "line": 1892,
+                "value": "#    And I Select Employee Code \"\u003cEmp_Code\u003e\""
+              },
+              {
+                "line": 1893,
+                "value": "#    And I Input Date From and Date To \"\u003cDate1\u003e\" \"\u003cDate2\u003e\""
+              },
+              {
+                "line": 1894,
+                "value": "#    And I Click on Query Overtime Hours"
+              },
+              {
+                "line": 1895,
+                "value": "#    And I Verify Hours Work in Manage OT \"\u003cHrs_wrk_one\u003e\" \"\u003cHrs_wrk_two\u003e\""
+              },
+              {
+                "line": 1896,
+                "value": "#    And I Verify Overtime Hours Rate One Point Five \"\u003cOT15Day1\u003e\" \"\u003cOT15Day2\u003e\""
+              },
+              {
+                "line": 1897,
+                "value": "#    And I Verify Overtime Hours Rate Two Point Zero \"\u003cOT20Day1\u003e\" \"\u003cOT20Day2\u003e\""
+              },
+              {
+                "line": 1898,
+                "value": "#    And I Verify Overtime Hours Rate Three Point Zero \"\u003cOT30Day1\u003e\" \"\u003cOT30Day2\u003e\""
+              },
+              {
+                "line": 1899,
+                "value": "#    And I Verify Overtime Hours Rate Sunday \"\u003cOTSUNDay1\u003e\" \"\u003cOTSUNDay2\u003e\""
+              },
+              {
+                "line": 1900,
+                "value": "#    And I Verify Overtime Hours Rate Public Holiday \"\u003cOTPHDay1\u003e\" \"\u003cOTPHDay2\u003e\""
+              },
+              {
+                "line": 1901,
+                "value": "#    And I Click on Save Button"
+              },
+              {
+                "line": 1902,
+                "value": "#    And I Verify Success Message for OT Saved"
+              },
+              {
+                "line": 1903,
+                "value": "#    And I Click on Attendance"
+              },
+              {
+                "line": 1904,
+                "value": "#    And I Click on Manage Overtime Hours and Meals"
+              },
+              {
+                "line": 1905,
+                "value": "#    And I Verify Manage Overtime Hours and Meals Page"
+              },
+              {
+                "line": 1906,
+                "value": "#    And I Input Date From and Date To in Manage Overtime and Meals \"\u003cDate1\u003e\" \"\u003cDate2\u003e\""
+              },
+              {
+                "line": 1907,
+                "value": "#    And I Select Company Name"
+              },
+              {
+                "line": 1908,
+                "value": "#    And I Select Location In Manage Overtime and Meals \"\u003cLocation\u003e\""
+              },
+              {
+                "line": 1909,
+                "value": "#    And I Select Employee Code In Manage Overtime and Meals \"\u003cEmp_Code\u003e\""
+              },
+              {
+                "line": 1910,
+                "value": "#    And I Click on Query Button"
+              },
+              {
+                "line": 1911,
+                "value": "#    And I Verify Overtime Hours and Amount \"\u003cOT15Day1\u003e\" \"\u003cOT15Day2\u003e\" \"\u003cOT20Day1\u003e\" \"\u003cOT20Day2\u003e\" \"\u003cOT30Day1\u003e\" \"\u003cOT30Day2\u003e\" \"\u003cOTSUNDay1\u003e\" \"\u003cOTSUNDay2\u003e\" \"\u003cOTPHDay1\u003e\" \"\u003cOTPHDay2\u003e\" \"\u003cOT15Amt1\u003e\" \"\u003cOT15Amt2\u003e\" \"\u003cOT20Amt1\u003e\" \"\u003cOT20Amt2\u003e\" \"\u003cOT30Amt1\u003e\" \"\u003cOT30Amt2\u003e\" \"\u003cOTSUNPHAmt1\u003e\" \"\u003cOTSUNPHAmt2\u003e\" \"\u003cTotal_Amt1\u003e\" \"\u003cTotal_Amt2\u003e\" \"\u003cOff_Leave_amt1\u003e\" \"\u003cOff_Leave_amt2\u003e\""
+              }
+            ],
+            "line": 1912,
+            "name": "I Sign Out",
+            "match": {
+              "location": "Steps.iSignOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32193500,
+              "status": "passed"
+            },
+            "line": 1913,
+            "name": "I Verify Successful Sign Out",
+            "match": {
+              "location": "Steps.iVerifySuccessfulSignOut()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Main_feature"
+          },
+          {
+            "line": 1871,
+            "name": "@Jenkins_Test"
+          },
+          {
+            "line": 3,
+            "name": "@Overtime"
+          }
+        ]
+      }
+    ],
+    "name": "Overtime_Calculations",
+    "description": "",
+    "id": "overtime-calculations",
+    "keyword": "Feature",
+    "uri": "features/Login.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@Main_feature"
+      },
+      {
+        "line": 3,
+        "name": "@Overtime"
+      }
+    ]
+  }
+]

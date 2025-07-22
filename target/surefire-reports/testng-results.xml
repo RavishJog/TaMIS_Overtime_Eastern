@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cucumbertest.TestRunner_web" duration-ms="13418" started-at="2025-07-17T10:36:16Z" finished-at="2025-07-17T10:36:29Z">
+    <groups>
+      <group name="Web">
+        <method signature="TestRunner_web.runCukes()[pri:0, instance:cucumbertest.TestRunner_web@42dafa95]" name="runCukes" class="cucumbertest.TestRunner_web"/>
+      </group> <!-- Web -->
+    </groups>
+    <test name="Command line test" duration-ms="13418" started-at="2025-07-17T10:36:16Z" finished-at="2025-07-17T10:36:29Z">
+      <class name="cucumbertest.TestRunner_web">
+        <test-method status="PASS" signature="runCukes()[pri:0, instance:cucumbertest.TestRunner_web@42dafa95]" name="runCukes" duration-ms="13412" started-at="2025-07-17T14:36:16Z" description="Example of using TestNGCucumberRunner to invoke Cucumber" finished-at="2025-07-17T14:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- cucumbertest.TestRunner_web -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cucumbertest.TestRunner_web -->
+</testng-results>
